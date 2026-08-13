@@ -1,18 +1,14 @@
-# Design centrado no humano — IHC, Aula 03
+# Design centrado no humano: IHC, Aula 03
 
-Site estático (HTML/CSS puro) respondendo às 6 perguntas da atividade sobre design centrado no humano, com base na videoaula "Interfaces Humano-Computador — Aula 03".
+Site estático (HTML/CSS puro) respondendo às 6 perguntas da atividade sobre design centrado no humano, com base na videoaula "Interfaces Humano-Computador, Aula 03".
 
 ## Estrutura
 ```
 index.html
 style.css
 assets/
-  foto-denym-andrade.svg   ← placeholder, trocar pela foto real
-  foto-denym-filho.svg     ← placeholder, trocar pela foto real
-  foto-lorena-silva.svg    ← placeholder, trocar pela foto real
+  foto-equipe-atividade-07.jpeg   ← foto real da equipe (Denym Filho e Lorena da Silva)
 ```
-
-**Antes de entregar:** troque os 3 arquivos SVG em `assets/` pelas fotos reais dos integrantes (pode ser `.jpg`/`.png` — só ajustar o `src` de cada `<img>` no `index.html`).
 
 ## Publicar no GitHub
 ```bash

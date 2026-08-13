@@ -125,33 +125,27 @@ h1 {
   font-weight: 500;
 }
 
-.equipe__lista {
-  list-style: none;
+.equipe__foto {
   margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.75rem;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.6rem;
 }
 
-.integrante {
-  display: flex;
-  align-items: center;
-  gap: 0.85rem;
-}
-
-.integrante img {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
+.equipe__foto img {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 6px;
   border: 2px solid var(--accent);
   object-fit: cover;
-  flex-shrink: 0;
 }
 
-.integrante__nome {
+.equipe__foto figcaption {
   font-family: var(--mono);
   font-size: 0.95rem;
+  color: var(--ink);
 }
 
 /* ---------- Diagrama de processo ---------- */
@@ -250,6 +244,6 @@ main {
 /* ---------- Responsivo ---------- */
 
 @media (max-width: 480px) {
-  .equipe__lista { flex-direction: column; gap: 1.1rem; }
+  .equipe__foto img { max-width: 100%; }
   .folha { padding: 1.5rem 1.25rem; }
 }
